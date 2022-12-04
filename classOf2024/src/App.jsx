@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./App.css";
-import Tresor from "./components/Tresor";
+import "../src/App.css"
+import Tresor from "./components/TRESOR/Tresor";
 
 function App() {
   return (
