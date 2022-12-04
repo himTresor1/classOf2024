@@ -1,9 +1,12 @@
 import React from "react";
+import Design1 from "../../../public/design-1.jpg"
 
 const Kevin = () => {
   return (
     <div className="h-[100vh] w-[75%] flex items-center bg-black">
-      <div className="w-[20%] h-[65%]"></div>
+      <div className="w-[20%] h-[65%]">
+        <img src={Design1} alt="" className="object-cover h-full w-full"/>
+      </div>
       <div className=" text-[1.2rem] font-semibold text-white w-[80%] h-full">
         <div className="h-[90%] flex justify-around items-center">
           <div className="mt-[7rem] h-[80%] w-[40%] flex flex-col items-center">
