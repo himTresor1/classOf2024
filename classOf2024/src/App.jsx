@@ -1,11 +1,12 @@
-import { useState } from "react";
 import "./App.css";
 import Tresor from "./components/Tresor";
+import Kevin from "./components/Kevin/Kevin"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col items-center">
       <Tresor />
+      <Kevin />
     </div>
   );
 }
