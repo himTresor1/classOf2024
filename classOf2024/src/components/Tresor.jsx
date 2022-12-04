@@ -3,8 +3,8 @@ import "../App.css";
 
 function Tresor() {
   return (
-    <div className="h-screen w-full bg-orange-100 flex flex-row  ">
-      <div className="w-[50%] bg-red-100 ">
+    <div className="h-screen w-full bg-orange-100 flex flex-row">
+      <div className="w-[50%] bg-red-100">
         <div className=" p">
           <h1>AMIZERO TRESOR</h1>
         </div>
