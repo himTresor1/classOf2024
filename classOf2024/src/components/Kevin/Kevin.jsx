@@ -3,10 +3,10 @@ import React from "react";
 const Kevin = () => {
   return (
     <div className="h-[100vh] w-[75%] flex items-center bg-black">
-      <div className="w-[20%] h-[65%] bg-red-700"></div>
-      <div className=" text-[1.2rem] font-semibold text-white w-[80%] h-full bg-blue-200">
-        <div className="bg-yellow-400 h-[90%] flex justify-around items-center">
-          <div className="h-[80%] w-[40%] bg-gray-200 flex flex-col items-center">
+      <div className="w-[20%] h-[65%]"></div>
+      <div className=" text-[1.2rem] font-semibold text-white w-[80%] h-full">
+        <div className="h-[90%] flex justify-around items-center">
+          <div className="mt-[7rem] h-[80%] w-[40%] flex flex-col items-center">
             <h3 className="font-semibold text-[#CEEF06] text-[2rem]">
               TYPE MASTER
             </h3>
@@ -16,7 +16,7 @@ const Kevin = () => {
               PORTFOLIO
             </button>
           </div>
-          <div className="w-[50%] h-full bg-red-300 flex flex-col justify-around items-end">
+          <div className="w-[50%] h-full flex flex-col justify-around items-end">
             <div className="h-[27rem] w-[25rem] bg-[yellow]"></div>
             <div className="h-[24rem] w-[27rem] bg-[red]"></div>
           </div>
