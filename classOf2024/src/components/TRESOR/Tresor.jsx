@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 
-import tresor1 from "../../assets/tresor1.png";
+import tresor1 from "./tresor1.png";
 
 function Tresor() {
   return (
