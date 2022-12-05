@@ -33,3 +33,6 @@
   background: #a0aec0ea;
 }
 
+body {
+  overflow-x: hidden;
+}
