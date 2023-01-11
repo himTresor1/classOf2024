@@ -1,5 +1,7 @@
-import React from "react";
-import Design1 from "../../../public/design-1.jpg"
+import React from "react"
+import Design1 from "../../assets/design-1.jpg"
+import Kev1 from "../../assets/kevin-1.jpg"
+import Kev2 from "../../assets/kevin-2.jpg"
 
 const Kevin = () => {
   return (
@@ -20,8 +22,12 @@ const Kevin = () => {
             </button>
           </div>
           <div className="w-[50%] h-full flex flex-col justify-around items-end">
-            <div className="h-[27rem] w-[25rem] bg-[yellow]"></div>
-            <div className="h-[24rem] w-[27rem] bg-[red]"></div>
+            <div className="h-[27rem] w-[25rem]">
+            <img src={Kev1} alt="" className="object-cover w-full h-full object-top" />
+            </div>
+            <div className="h-[24rem] w-[27rem]">
+              <img src={Kev2} alt="" className="object-cover w-full h-full object-top " />
+            </div>
           </div>
         </div>
         <h2>Any fool can write code that a computer can understand.</h2>
