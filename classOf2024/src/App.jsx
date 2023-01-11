@@ -9,7 +9,7 @@ function App() {
     <div className="App flex flex-col items-center">
       <Tresor />
       <Kevin />
-      {/* <Pacifiquem /> */}
+      <Pacifiquem />
     </div>
   );
 }
