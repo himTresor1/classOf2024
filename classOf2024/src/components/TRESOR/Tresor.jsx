@@ -17,7 +17,7 @@ function Tresor() {
           </h1>
         </div>
         <div className="button">
-          <button className=" ml-[40%]  mt-[5rem] w-[13rem] h-[4rem] bg-black  outline-none border-[2px] border-black text-white font-bold">PORTFOLIO</button>
+          <button className=" ml-[40%]  mt-[5rem] w-[13rem] h-[4rem] bg-black  outline-none border-[2px] border-black text-white font-bold hover:bg-white hover:text-black hover:border-[2px] hover:border-black">PORTFOLIO</button>
         </div>
       </div>
       <div className="w-[50%] mb-[2rem]">
