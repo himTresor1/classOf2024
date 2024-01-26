@@ -4,7 +4,7 @@ import pacifiquemImage from './M.pac.jpg';
 
 function Pacifiquem() {
   return (
-    <div className="flex flex-row gap-0 w-screen h-screen bg-black mt-[-3.85rem]">
+    <div className="flex flex-row gap-0 w-screen h-screen bg-black">
       <div className="w-[45vw] h-[100%] justify-center items-center">
         <div className=" w-[100%] h-[100%] flex justify-center items-center">
           <img src={pacifiquemImage} alt="M.pac's Image" className="border-transparent border-x-neutral-500 border-opacity-70 rounded-3xl"/>
